@@ -1,1 +1,18 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее*/
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1440px;
+
+  @media (min-width: $vp-dekstop) {
+    padding: 0 40px;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Montserrat", "Arial", sans-serif;
+}

@@ -1,0 +1,17 @@
+.map {
+  width: 100%;
+  min-height: 420px;
+
+  @media (min-width: $vp-tablet) {
+    min-height: 480px;
+  }
+
+  @media (min-width: $vp-dekstop) {
+    min-height: 540px;
+  }
+}
+
+.map__image {
+  display: block;
+  width: 100%;
+}

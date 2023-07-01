@@ -1,0 +1,13 @@
+.promo {
+  position: relative;
+  background-color: $color-bridal-heath;
+
+  @media (min-width: $vp-tablet) {
+    background: linear-gradient(180deg, $color-bridal-heath 77%, transparent 50%);
+  }
+
+  @media (min-width: $vp-dekstop) {
+    background-color: $color-bridal-heath;
+  }
+}
+
