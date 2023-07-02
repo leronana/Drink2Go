@@ -3,10 +3,6 @@
   position: relative;
   padding: 20px 0 60px;
 
-  @media (max-width: 767px) {
-    box-shadow: 0 -3px 17px $color-night-rider;
-  }
-
   @media (min-width: $vp-tablet) {
     padding: 54px 0 0;
   }

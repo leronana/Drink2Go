@@ -3,11 +3,12 @@
 
   background-color: $color-white-smoke;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     padding-top: 80px;
     padding-bottom: 90px;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     padding: 100px 40px 120px 40px;
   }
 }
@@ -16,10 +17,11 @@
   max-width: 500px;
   margin: 0 auto;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     max-width: 1024px;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     display: grid;
     max-width: 1360px;
 
@@ -30,7 +32,6 @@
 }
 
 .catalog__promo {
-
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
@@ -42,26 +43,25 @@
 
   text-align: center;
 
-   @media (min-width: $vp-dekstop){
+  @media (min-width: $vp-dekstop) {
     grid-column: 1 / -1;
   }
 }
 
 .catalog__title {
-
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   margin: 0;
   margin-bottom: 20px;
-
   text-align: center;
-  @media (min-width: $vp-tablet){
+
+  @media (min-width: $vp-tablet) {
     font-size: 42px;
     line-height: 64px;
   }
 
- @media (min-width: $vp-dekstop){
+  @media (min-width: $vp-dekstop) {
     margin-bottom: 36px;
 
     grid-column: 1 / -1;
@@ -71,15 +71,15 @@
 .catalog__form {
   margin-bottom: 37px;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     display: grid;
     margin-bottom: 41px;
-
     row-gap: 39px;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     align-items: start;
     width: 318px;
     height: fit-content;
@@ -103,14 +103,14 @@
 .catalog__range {
   margin-bottom: 30px;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     width: calc(100% - 20px);
     max-width: 300px;
     margin-bottom: 0;
-
     justify-self: start;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     width: 100%;
     max-width: inherit;
     margin-right: 0;
@@ -121,11 +121,10 @@
   display: grid;
   justify-content: center;
   align-items: center;
-
   column-gap: 18px;
-
   grid-template-columns: 1fr 8px 1fr;
-   @media (min-width: $vp-tablet) {
+
+  @media (min-width: $vp-tablet) {
     column-gap: 20px;
   }
 
@@ -155,15 +154,16 @@
 .catalog__input-wrapper {
   margin-bottom: 34px;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     margin-bottom: 0;
   }
 
   &--first {
-     @media (min-width: $vp-tablet) {
+    @media (min-width: $vp-tablet) {
       margin-right: 13px;
     }
-     @media (min-width: $vp-dekstop){
+
+    @media (min-width: $vp-dekstop) {
       margin-right: 0;
     }
   }
@@ -171,10 +171,11 @@
   &--last {
     margin-bottom: 30px;
 
-     @media (min-width: $vp-tablet) {
+    @media (min-width: $vp-tablet) {
       margin-bottom: 0;
     }
-     @media (min-width: $vp-dekstop){
+
+    @media (min-width: $vp-dekstop) {
       margin-right: 0;
     }
   }
@@ -200,15 +201,15 @@
 }
 
 .catalog__buttons {
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
     gap: 20px;
     grid-column: 1 / -1;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
@@ -220,17 +221,18 @@
 .catalog__button {
   width: 100%;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     width: auto;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     width: 47%;
   }
 
   &:not(:last-child) {
     margin-bottom: 20px;
 
-     @media (min-width: $vp-tablet) {
+    @media (min-width: $vp-tablet) {
       margin-bottom: 0;
     }
   }
@@ -241,7 +243,7 @@
   margin: 0 auto;
   margin-bottom: 15px;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     margin: 0 0 26px auto;
   }
 }
@@ -258,7 +260,7 @@
   font-size: 16px;
   line-height: 24px;
 
-   @media (min-width: $vp-dekstop){
+  @media (min-width: $vp-dekstop) {
     margin-right: 12px;
   }
 }
@@ -272,12 +274,11 @@
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
-
   list-style: none;
-
   grid-template-columns: 1fr;
   row-gap: 20px;
-   @media (min-width: $vp-tablet) {
+
+  @media (min-width: $vp-tablet) {
     margin-bottom: 70px;
 
     column-gap: 30px;
@@ -285,7 +286,8 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
   }
-   @media (min-width: $vp-dekstop){
+
+  @media (min-width: $vp-dekstop) {
     margin-bottom: 60px;
 
     grid-template-columns: repeat(3, 1fr);
@@ -305,7 +307,8 @@
 
   grid-auto-rows: auto auto 1fr auto;
   grid-template-columns: auto 1fr;
-   @media (min-width: $vp-tablet) {
+
+  @media (min-width: $vp-tablet) {
     padding: 50px 30px 30px 30px;
   }
 
@@ -338,7 +341,7 @@
   margin: 0 auto;
   margin-bottom: 24px;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     margin-bottom: 30px;
   }
 }
@@ -347,7 +350,7 @@
   margin: 0;
   margin-bottom: 4px;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     margin-bottom: 10px;
   }
 }
@@ -355,9 +358,9 @@
 .catalog__product-desc {
   margin: 0;
   margin-bottom: 16px;
-
   grid-column: 1 / -1;
-   @media (min-width: $vp-tablet) {
+
+  @media (min-width: $vp-tablet) {
     margin-bottom: 20px;
   }
 }
@@ -392,11 +395,10 @@
   align-items: center;
   margin: 0;
   padding: 0;
-
   list-style: none;
-
   gap: 20px;
-   @media (min-width: $vp-tablet) {
+
+  @media (min-width: $vp-tablet) {
     justify-content: flex-end;
   }
 }
@@ -407,7 +409,7 @@
   padding: 5px;
 
   &--arrow {
-     @media (min-width: $vp-tablet) {
+    @media (min-width: $vp-tablet) {
       padding-right: 20px;
       padding-left: 20px;
     }
@@ -415,7 +417,7 @@
 }
 
 .catalog__pagination-svg {
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     display: none;
   }
 
@@ -427,7 +429,7 @@
 .catalog__pagination-text {
   display: none;
 
-   @media (min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     display: block;
   }
 }

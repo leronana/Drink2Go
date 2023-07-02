@@ -1,12 +1,12 @@
 .footer {
   margin: 0 auto;
 
-  @media( min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     max-width: 1024px;
     padding: 39px 20px 30px 20px;
   }
 
-  @media( min-width: $vp-dekstop) {
+  @media (min-width: $vp-dekstop) {
     display: grid;
     max-width: 1440px;
     padding: 39px 40px 30px 40px;
@@ -22,16 +22,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
   border-bottom: 1px solid $color-magnolia;
- @media( min-width: $vp-tablet) {
+
+  @media (min-width: $vp-tablet) {
     margin-bottom: 30px;
     padding: 0;
 
     border-bottom: 0;
   }
 
- @media( min-width: $vp-dekstop) {
+  @media (min-width: $vp-dekstop) {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -41,7 +41,7 @@
 }
 
 .footer__logo-wrapper {
- @media( min-width: $vp-dekstop) {
+  @media (min-width: $vp-dekstop) {
     margin-bottom: 50px;
   }
 }
@@ -54,7 +54,7 @@
 .footer__logo-text {
   display: none;
 
- @media( min-width: $vp-dekstop) {
+  @media (min-width: $vp-dekstop) {
     display: block;
     margin-top: 10px;
   }
@@ -92,7 +92,7 @@
 }
 
 .footer__menu {
- @media( min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     display: grid;
     margin-bottom: 28px;
 
@@ -100,7 +100,8 @@
 
     grid-template-columns: repeat(3, 1fr);
   }
- @media( min-width: $vp-dekstop) {
+
+  @media (min-width: $vp-dekstop) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -111,7 +112,7 @@
 
   border-bottom: 1px solid $color-magnolia;
 
- @media( min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     padding: 0;
 
     border-bottom: 0;
@@ -213,10 +214,11 @@
 .footer-academy-wrapper {
   padding: 10px 20px 20px 20px;
 
- @media( min-width: $vp-tablet) {
+  @media (min-width: $vp-tablet) {
     padding: 0;
   }
- @media( min-width: $vp-dekstop) {
+
+  @media (min-width: $vp-dekstop) {
     margin-top: 7px;
 
     grid-column: 1 / -1;

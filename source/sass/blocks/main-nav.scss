@@ -44,7 +44,7 @@
   }
 
   &:active {
-    background-color:$color-magnolia;
+    background-color: $color-magnolia;
   }
 }
 
@@ -96,7 +96,7 @@
   }
 
   &:active {
-    background-color:$color-magnolia;
+    background-color: $color-magnolia;
   }
 }
 
@@ -123,7 +123,7 @@
     content: "";
     position: absolute;
     top: 6px;
-    left: 0px;
+    left: 0;
     width: 16px;
     height: 1px;
     background-color: $color-night-rider;
@@ -192,7 +192,7 @@
   }
 
   &:active {
-    background:$color-magnolia;
+    background: $color-magnolia;
   }
 
   @media (min-width: $vp-tablet) {
@@ -229,7 +229,7 @@
     &::after {
       content: "";
       position: absolute;
-      bottom: 0px;
+      bottom: 0;
       left: 0;
       width: 100%;
       height: 2px;
@@ -260,15 +260,5 @@
     &::after {
       background-color: $color-slate-blue;
     }
-  }
-}
-
-@media (max-width: 767px) {
-  .main-nav--closed .main-nav__list {
-    display: none;
-  }
-
-  .main-nav--nojs .main-nav__toggle {
-    display: none;
   }
 }
